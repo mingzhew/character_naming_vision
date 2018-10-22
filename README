@@ -1,0 +1,9 @@
+This distionary contains the code to preprocess raw videos for face clustering. 
+
+The face tracks are extracted by the MTCNN face detector and the forward and backward object tracker implemented in the DLib library.
+
+Then we apply facial landmark detection to capture lip motion and calculate the talking score for each face track.
+
+We also extract visual features from face tracks using pretrained VGGFace network.
+
+Please check `preprocess.sh` for the running commands.
